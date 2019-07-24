@@ -30,7 +30,7 @@ public class main extends JavaPlugin implements Listener{
 	ItemStack dPick = new ItemStack(Material.DIAMOND_PICKAXE);
 	@Override
 	public void onEnable() {
-		if(!new AdvancedLicense("YWO0-VIFX-EHR8-F1LY", "https://artizanknight.000webhostapp.com/webpanel/verify.php", this).setSecurityKey("YecoF0I6M05thxLeokoHuW8iUhTdIUInjkfF").register()) return;
+		
 		//Item enchants
 		dHelm.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 7);
 		dChest.addUnsafeEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 7);
